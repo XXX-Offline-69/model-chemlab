@@ -1,0 +1,9 @@
+# Project-specific overrides
+yarn.lock linguist-generated
+src/**/*.ts linguist-detectable
+
+build/* linguist-vendored 
+package-lock.json linguist-generated
+docs/**/*.html linguist-vendored
+* text=auto eol=lf
+*.jpeg binary
